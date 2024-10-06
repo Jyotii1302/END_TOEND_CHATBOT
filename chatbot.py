@@ -45,16 +45,18 @@ def chatbot(input_text):
 
 # Main Streamlit application
 def main():
+    import nltk  # Importing here to see if it resolves the issue
+    import ssl
+    
+    ssl._create_default_https_context = ssl._create_unverified_context
+    nltk.data.path.append(os.path.abspath("nltk_data"))
+    nltk.download('punkt', quiet=True)  # Download punkt silently
+
     st.title("Menstrual Health Awareness Chatbot")
     st.write("Welcome to the chatbot!")
 
-    # User input handling
     user_input = st.text_input("You:", key="user_input")
 
     if user_input:
-        # Get response from chatbot
         response = chatbot(user_input)
-        st.write(response)  # Display the response to the user
-
-if __name__ == '__main__':
-    main()
+        st.write(response)  # Display the chatbot's response
