@@ -1,16 +1,23 @@
 import json
 import pandas as pd
+import requests
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
+# Function to load JSON data from a URL
+def load_json_from_url(url):
+    response = requests.get(url)
+    response.raise_for_status()  # Raise an error for bad responses
+    return response.json()
+
 # Load training data from GitHub repository
-with open('https://raw.githubusercontent.com/jyotii1302/end_toend_chatbot/main/training_data.json', 'r') as json_file:
-    training_data = json.load(json_file)
+training_data_url = 'https://raw.githubusercontent.com/jyotii1302/end_toend_chatbot/main/training_data.json'
+training_data = load_json_from_url(training_data_url)
 
 # Load testing data from GitHub repository
-with open('https://raw.githubusercontent.com/jyotii1302/end_toend_chatbot/main/testing_data.json', 'r') as json_file:
-    testing_data = json.load(json_file)
+testing_data_url = 'https://raw.githubusercontent.com/jyotii1302/end_toend_chatbot/main/testing_data.json'
+testing_data = load_json_from_url(testing_data_url)
 
 # Prepare training data
 train_patterns = [entry['instruction (string)'] for entry in training_data]
