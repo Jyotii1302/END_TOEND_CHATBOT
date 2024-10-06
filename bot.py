@@ -1,4 +1,3 @@
-import os
 import json
 import random
 import pandas as pd
@@ -11,49 +10,56 @@ from sklearn.metrics import accuracy_score
 with open(r'C:\Users\User\NLP\training_data.json', 'r') as json_file:
     training_data = json.load(json_file)
 
+# Load testing data from JSON file
+with open(r'C:\Users\User\NLP\testing_data.json', 'r') as json_file:
+    testing_data = json.load(json_file)
+
 # Prepare training data
-train_patterns = []
-train_tags = []
+train_patterns = [entry['instruction (string)'] for entry in training_data]
+train_labels = [entry['response (string)'] for entry in training_data]
 
-for entry in training_data:
-    train_patterns.append(entry['instruction (string)'])  # Adjust key name if needed
-    train_tags.append(entry['output (string)'])            # Adjust key name if needed
+# Convert training data to DataFrame for easier manipulation
+train_df = pd.DataFrame({
+    'patterns': train_patterns,
+    'labels': train_labels
+})
 
-# Vectorization
+# Feature extraction
 vectorizer = TfidfVectorizer()
-X_train = vectorizer.fit_transform(train_patterns)  # Vectorize training instructions
-y_train = train_tags                                  # Outputs for training
+X_train = vectorizer.fit_transform(train_df['patterns'])
+y_train = train_df['labels']
 
-# Train the Model
-clf = LogisticRegression(random_state=0, max_iter=10000)
-clf.fit(X_train, y_train)
+# Train the model
+model = LogisticRegression()
+model.fit(X_train, y_train)
 
-# Function to handle chatbot responses
-def chatbot(input_text):
-    # Transform the input text into the same format as the training data
-    input_vector = vectorizer.transform([input_text])
+# Prepare for chatbot interaction
+st.title("Menstrual Health Chatbot")
 
-    # Predict the tag using the trained model
-    predicted_tag = clf.predict(input_vector)[0]
+# User input
+user_input = st.text_input("You: ", "")
 
-    # Search for a matching response in the training data
-    for entry in training_data:
-        if entry['output (string)'] == predicted_tag:
-            # Return a random response from matching entries
-            return random.choice(entry['output (string)'])  # If multiple responses exist for a tag
+if user_input:
+    # Vectorize user input
+    X_user = vectorizer.transform([user_input])
+    
+    # Get prediction
+    predicted_label = model.predict(X_user)
+    
+    # Display the response
+    st.write(f"Chatbot: {predicted_label[0]}")
 
-    return "I'm sorry, I don't understand that question."  # Fallback response if no match is found
+# Optionally, evaluate the model using testing data
+if st.button("Evaluate Model"):
+    test_patterns = [entry['instruction (string)'] for entry in testing_data]
+    test_labels = [entry['response (string)'] for entry in testing_data]
+    
+    X_test = vectorizer.transform(test_patterns)
+    y_test = test_labels
 
-# Streamlit interface
-def main():
-    st.title("Menstrual Health Awareness Bot")
-    st.write("Welcome to the chatbot!")
-
-    user_input = st.text_input("You:", key="user_input")
-
-    if user_input:
-        response = chatbot(user_input)
-        st.text_area("Chatbot:", value=response, height=100, max_chars=None, key="chatbot_response")
-
-if __name__ == '__main__':
-    main()
+    # Predict on test data
+    predictions = model.predict(X_test)
+    
+    # Calculate accuracy
+    accuracy = accuracy_score(y_test, predictions)
+    st.write(f"Model Accuracy: {accuracy:.2f}")
