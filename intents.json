@@ -1,342 +1,379 @@
-[
-    {
-        "tag": "cycle_length",
-        "pattern": "What is a normal menstrual cycle length?",
-        "response": "A normal menstrual cycle typically ranges from 21 to 35 days, with the average cycle lasting around 28 days."
-    },
-    {
-        "tag": "irregular_periods",
-        "pattern": "What causes irregular periods?",
-        "response": "Common causes of irregular periods include hormonal imbalances, stress, excessive exercise, weight changes, thyroid disorders, and certain medical conditions."
-    },
-    {
-        "tag": "menstrual_cramps",
-        "pattern": "How can I relieve menstrual cramps?",
-        "response": "Menstrual cramps can be alleviated through methods like over-the-counter pain relievers, applying heat to the abdomen, gentle exercise, relaxation techniques, and dietary changes."
-    },
-    {
-        "tag": "heavy_flow",
-        "pattern": "What are the signs of a heavy menstrual flow?",
-        "response": "Signs of a heavy menstrual flow include soaking through one or more pads or tampons every hour for several consecutive hours and passing large blood clots."
-    },
-    {
-        "tag": "PMS_symptoms",
-        "pattern": "What are the symptoms of PMS?",
-        "response": "Common PMS symptoms include mood swings, irritability, bloating, breast tenderness, and fatigue."
-    },
-    {
-        "tag": "menstrual_disorders",
-        "pattern": "What signs indicate a menstrual disorder?",
-        "response": "Signs of a menstrual disorder include irregular periods, extremely heavy or light periods, severe menstrual cramps, prolonged periods, and abnormal menstrual symptoms."
-    },
-    {
-        "tag": "natural_remedies",
-        "pattern": "What are some natural remedies for PMS?",
-        "response": "Natural remedies for PMS include dietary changes, regular exercise, stress management techniques, and herbal supplements."
-    },
-    {
-        "tag": "birth_control",
-        "pattern": "Can birth control affect my menstrual cycle?",
-        "response": "Yes, hormonal contraceptives can regulate and sometimes eliminate menstrual periods, but they can also cause changes in menstrual flow and regularity."
-    },
-    {
-        "tag": "menstruation_menopause",
-        "pattern": "How does menstruation change with age?",
-        "response": "Menstruation may become irregular as individuals approach menopause, with symptoms like changes in flow and cycle length."
-    },
-    {
-        "tag": "fertility",
-        "pattern": "How does menstruation affect fertility?",
-        "response": "Regular menstruation is often a sign of ovulation, which is essential for fertility. Irregular cycles can affect the ability to conceive."
-    },
-    {
-        "tag": "cultural_beliefs",
-        "pattern": "How do cultural beliefs influence menstruation?",
-        "response": "Cultural attitudes towards menstruation can affect how individuals perceive their health, access to products, and education about menstrual health."
-    },
-    {
-        "tag": "menstrual_products",
-        "pattern": "What are the different types of menstrual products?",
-        "response": "Common menstrual products include pads, tampons, menstrual cups, and period underwear."
-    },
-    {
-        "tag": "menstruation_stigma",
-        "pattern": "What is menstrual stigma?",
-        "response": "Menstrual stigma refers to negative cultural perceptions and taboos surrounding menstruation that can lead to shame and embarrassment."
-    },
-    {
-        "tag": "education_importance",
-        "pattern": "Why is education about menstrual health important?",
-        "response": "Education about menstrual health is crucial for breaking stigmas, improving access to products, and promoting overall reproductive health."
-    },
-    {
-        "tag": "access_to_products",
-        "pattern": "What challenges do people face in accessing menstrual products?",
-        "response": "Challenges include lack of availability, high costs, and societal stigma that prevents individuals from purchasing products."
-    },
-    {
-        "tag": "exercise_menstruation",
-        "pattern": "Is it okay to exercise during my period?",
-        "response": "Yes, light to moderate exercise can help alleviate menstrual cramps and improve mood during menstruation."
-    },
-    {
-        "tag": "mental_health",
-        "pattern": "How does menstruation affect mental health?",
-        "response": "Hormonal fluctuations during the menstrual cycle can lead to mood swings, anxiety, and depression for some individuals."
-    },
-    {
-        "tag": "diet_menstruation",
-        "pattern": "What diet is best during menstruation?",
-        "response": "A balanced diet rich in fruits, vegetables, whole grains, and lean proteins can help alleviate menstrual symptoms. Staying hydrated is also important."
-    },
-    {
-        "tag": "menstrual_hygiene",
-        "pattern": "How can I maintain menstrual hygiene?",
-        "response": "Maintaining menstrual hygiene involves regularly changing menstrual products, washing hands before and after changing, and using clean products."
-    },
-    {
-        "tag": "menstrual_health_rights",
-        "pattern": "What are menstrual health rights?",
-        "response": "Menstrual health rights include access to accurate information, menstrual products, and supportive healthcare without stigma or discrimination."
-    },
-    {
-        "tag": "menstrual_cycle_tracking",
-        "pattern": "How can I track my menstrual cycle?",
-        "response": "You can track your menstrual cycle using a calendar, a menstrual tracking app, or by noting changes in symptoms throughout the month."
-    },
-    {
-        "tag": "premenstrual_syndrome",
-        "pattern": "What is premenstrual syndrome (PMS)?",
-        "response": "PMS is a group of physical and emotional symptoms that occur before menstruation, affecting daily life for many individuals."
-    },
-    {
-        "tag": "heavy_menstrual_bleeding",
-        "pattern": "What should I do if I have heavy menstrual bleeding?",
-        "response": "If you experience heavy menstrual bleeding, it's essential to consult a healthcare provider for evaluation and management."
-    },
-    {
-        "tag": "menstruation_and_disabilities",
-        "pattern": "What challenges do individuals with disabilities face regarding menstruation?",
-        "response": "Individuals with disabilities may face challenges like accessibility to products, difficulties in managing hygiene, and lack of tailored information."
-    },
-    {
-        "tag": "menstrual_health_interventions",
-        "pattern": "What are menstrual health interventions?",
-        "response": "Menstrual health interventions are programs and initiatives aimed at improving access to menstrual products, education, and healthcare."
-    },
-    {
-        "tag": "menstrual_product_safety",
-        "pattern": "Are menstrual products safe to use?",
-        "response": "Yes, menstrual products that are FDA-approved are safe for use. However, it's important to follow usage instructions to prevent any health issues."
-    },
-    {
-        "tag": "transgender_menstruation",
-        "pattern": "Do transgender men experience menstruation?",
-        "response": "Transgender men may still experience menstruation if they have not undergone surgery or hormone therapy that stops their menstrual cycles."
-    },
-    {
-        "tag": "menstrual_health_in_education",
-        "pattern": "How can schools support menstrual health?",
-        "response": "Schools can support menstrual health by providing education, access to products, and creating an inclusive environment for discussing menstruation."
-    },
-    {
-        "tag": "mental_health_support",
-        "pattern": "How can I seek mental health support for menstrual issues?",
-        "response": "It's important to talk to a healthcare provider or a mental health professional if you experience severe mood changes related to your menstrual cycle."
-    },
-    {
-        "tag": "menstrual_research",
-        "pattern": "Why is menstrual health research important?",
-        "response": "Menstrual health research is important for understanding menstrual disorders, improving healthcare practices, and informing public policy."
-    },
-    {
-        "tag": "endometriosis",
-        "pattern": "What is endometriosis?",
-        "response": "Endometriosis is a medical condition where tissue similar to the lining of the uterus grows outside the uterus, causing pain and irregular bleeding."
-    },
-    {
-        "tag": "PCOS",
-        "pattern": "What is Polycystic Ovary Syndrome (PCOS)?",
-        "response": "PCOS is a hormonal disorder that can cause irregular periods, weight gain, acne, and excessive hair growth."
-    },
-    {
-        "tag": "menstrual_discomfort",
-        "pattern": "How can I manage menstrual discomfort?",
-        "response": "Managing menstrual discomfort can involve using heat pads, taking pain relievers, and practicing relaxation techniques."
-    },
-    {
-        "tag": "cultural_practices",
-        "pattern": "What are some cultural practices surrounding menstruation?",
-        "response": "Cultural practices can vary widely, including rituals, restrictions, and celebrations related to menstruation in different societies."
-    },
-    {
-        "tag": "menstrual_health_equity",
-        "pattern": "What is menstrual health equity?",
-        "response": "Menstrual health equity refers to the fair access to menstrual products, education, and healthcare for all individuals, regardless of their background."
-    },
-    {
-        "tag": "menstrual_cycle_phases",
-        "pattern": "What are the phases of the menstrual cycle?",
-        "response": "The menstrual cycle has four main phases: menstrual, follicular, ovulation, and luteal phases, each with unique hormonal changes."
-    },
-    {
-        "tag": "menstrual_pain",
-        "pattern": "Is menstrual pain normal?",
-        "response": "Some menstrual pain is normal, but severe pain may indicate underlying conditions that require medical evaluation."
-    },
-    {
-        "tag": "hormonal_changes",
-        "pattern": "How do hormonal changes affect my mood?",
-        "response": "Hormonal changes during the menstrual cycle can affect mood due to fluctuations in estrogen and progesterone levels."
-    },
-    {
-        "tag": "period_products_environment",
-        "pattern": "Are period products environmentally friendly?",
-        "response": "Some menstrual products, like menstrual cups and reusable pads, are more environmentally friendly compared to single-use products."
-    },
-    {
-        "tag": "tracking_symptoms",
-        "pattern": "Why should I track my menstrual symptoms?",
-        "response": "Tracking menstrual symptoms can help identify patterns, assist healthcare providers in diagnosing issues, and manage menstrual health more effectively."
-    },
-    {
-        "tag": "menstrual_product_allergies",
-        "pattern": "Can I have allergies to menstrual products?",
-        "response": "Yes, some individuals may experience allergic reactions to certain materials in menstrual products. It's important to switch to hypoallergenic options if needed."
-    },
-    {
-        "tag": "menstrual_health_apps",
-        "pattern": "What are the benefits of using menstrual health apps?",
-        "response": "Menstrual health apps can help track cycles, predict ovulation, and provide personalized health tips and education."
-    },
-    {
-        "tag": "menstrual_products_cost",
-        "pattern": "How can I afford menstrual products?",
-        "response": "Consider looking for local organizations that provide menstrual products for free or at a reduced cost and use coupons when purchasing."
-    },
-    {
-        "tag": "social_support",
-        "pattern": "How can I build a support system for menstrual health?",
-        "response": "Building a support system can involve talking openly with friends, family, or joining community groups that focus on menstrual health awareness."
-    },
-    {
-        "tag": "menstrual_health_care",
-        "pattern": "What role does healthcare play in menstrual health?",
-        "response": "Healthcare plays a vital role in providing education, treatment for menstrual disorders, and access to necessary products for individuals."
-    },
-    {
-        "tag": "menstrual_blood_color",
-        "pattern": "What does the color of menstrual blood mean?",
-        "response": "The color of menstrual blood can vary from bright red to dark brown; this can indicate different stages of the menstrual cycle or flow."
-    },
-    {
-        "tag": "menstrual_health_conversations",
-        "pattern": "How can I start conversations about menstrual health?",
-        "response": "Starting conversations can involve discussing personal experiences, sharing educational resources, and creating a comfortable space for dialogue."
-    },
-    {
-        "tag": "menstrual_health_discrimination",
-        "pattern": "What is menstrual health discrimination?",
-        "response": "Menstrual health discrimination occurs when individuals face stigma or unequal treatment based on their menstrual health needs."
-    },
-    {
-        "tag": "emergency_period_products",
-        "pattern": "What should I do if I run out of menstrual products?",
-        "response": "If you run out of products, you can ask friends, family, or local organizations for help, or use alternatives like toilet paper in emergencies."
-    },
-    {
-        "tag": "pain_management",
-        "pattern": "What are effective pain management strategies for menstrual pain?",
-        "response": "Effective pain management strategies can include over-the-counter pain relievers, heating pads, and gentle stretching exercises."
-    },
-    {
-        "tag": "menstrual_product_disposal",
-        "pattern": "How should I dispose of menstrual products?",
-        "response": "Menstrual products should be disposed of in the trash. Do not flush pads or tampons as they can clog plumbing."
-    },
-    {
-        "tag": "menstrual_education_resources",
-        "pattern": "Where can I find resources on menstrual health education?",
-        "response": "Resources can be found through healthcare providers, educational websites, and organizations dedicated to menstrual health awareness."
-    },
-    {
-        "tag": "menstruation_and_pregnancy",
-        "pattern": "How does menstruation relate to pregnancy?",
-        "response": "Menstruation stops during pregnancy. A missed period can be one of the first signs of pregnancy."
-    },
-    {
-        "tag": "hormonal_therapy",
-        "pattern": "What is hormonal therapy for menstrual disorders?",
-        "response": "Hormonal therapy involves using medications to regulate menstrual cycles and alleviate symptoms of disorders like PCOS and endometriosis."
-    },
-    {
-        "tag": "menstrual_safety",
-        "pattern": "Are there safety concerns with menstrual products?",
-        "response": "Generally, menstrual products are safe. However, Toxic Shock Syndrome (TSS) is a rare but serious condition associated with tampon use."
-    },
-    {
-        "tag": "menstrual_products_innovation",
-        "pattern": "What innovations are there in menstrual products?",
-        "response": "Innovations include menstrual cups, reusable pads, and biodegradable products aimed at reducing environmental impact."
-    },
-    {
-        "tag": "menstruation_and_mental_health",
-        "pattern": "How can menstruation impact mental health?",
-        "response": "Menstruation can impact mental health through hormonal changes that may lead to mood swings, anxiety, or depressive symptoms."
-    },
-    {
-        "tag": "menstrual_product_brands",
-        "pattern": "What are some popular menstrual product brands?",
-        "response": "Popular menstrual product brands include Always, Tampax, Kotex, and DivaCup, among others."
-    },
-    {
-        "tag": "menstrual_cycle_variability",
-        "pattern": "What causes variability in menstrual cycles?",
-        "response": "Variability can be caused by factors like stress, weight changes, hormonal imbalances, and health conditions."
-    },
-    {
-        "tag": "menstrual_health_education_in_schools",
-        "pattern": "How can menstrual health be taught in schools?",
-        "response": "Menstrual health education can be taught through comprehensive sex education programs that include information about cycles, hygiene, and health."
-    },
-    {
-        "tag": "menstruation_and_blood_donations",
-        "pattern": "Can I donate blood during my period?",
-        "response": "Yes, you can donate blood during your period, as long as you feel well and are not experiencing heavy bleeding."
-    },
-    {
-        "tag": "menstrual_health_statistics",
-        "pattern": "What are some statistics related to menstrual health?",
-        "response": "Statistics show that a significant number of individuals experience menstrual pain, with many missing school or work due to symptoms."
-    },
-    {
-        "tag": "menstrual_health_and_disability",
-        "pattern": "How can we improve menstrual health for people with disabilities?",
-        "response": "Improving menstrual health for individuals with disabilities can involve providing accessible products, education, and resources tailored to their needs."
-    },
-    {
-        "tag": "menstrual_issues",
-        "pattern": "What should I do if I have irregular periods?",
-        "response": "If you have irregular periods, it's important to consult a healthcare provider to determine the underlying cause."
-    },
-    {
-        "tag": "menstrual_pain_in_children",
-        "pattern": "Can children experience menstrual pain?",
-        "response": "Yes, children can experience menstrual pain. It's important to provide them with education and support to manage their symptoms."
-    },
-    {
-        "tag": "menstrual_cup_usage",
-        "pattern": "How do I use a menstrual cup?",
-        "response": "To use a menstrual cup, fold it to insert, position it low in the vagina, and ensure it opens fully. Follow the manufacturer's instructions for cleaning and care."
-    },
-    {
-        "tag": "menstrual_hygiene_access",
-        "pattern": "What barriers exist to menstrual hygiene access?",
-        "response": "Barriers include cost, stigma, lack of education, and insufficient availability of products in certain regions."
-    },
-    {
-        "tag": "menstrual_health_knowledge",
-        "pattern": "What should everyone know about menstrual health?",
-        "response": "Everyone should know about the menstrual cycle, the importance of hygiene, and how to recognize signs of potential health issues."
-    }
-]
+{
+    "intents": [
+        {
+            "tag": "menstruation_cycle",
+            "patterns": ["What is a normal menstrual cycle?", "How long does a menstrual cycle last?", "What is the average length of a menstrual cycle?"],
+            "responses": ["A normal menstrual cycle typically ranges from 21 to 35 days, with the average cycle lasting around 28 days."]
+        },
+        {
+            "tag": "irregular_periods",
+            "patterns": ["What causes irregular periods?", "Why are my periods irregular?", "What can cause my menstrual cycle to be irregular?"],
+            "responses": ["Common causes of irregular periods include hormonal imbalances, stress, excessive exercise, weight changes, and certain medical conditions."]
+        },
+        {
+            "tag": "menstrual_cramps",
+            "patterns": ["How can I relieve menstrual cramps?", "What are some ways to alleviate menstrual pain?", "What can help with period cramps?"],
+            "responses": ["Menstrual cramps can be alleviated through over-the-counter pain relievers, applying heat to the abdomen, gentle exercise, and relaxation techniques."]
+        },
+        {
+            "tag": "heavy_flow",
+            "patterns": ["What are the signs of a heavy menstrual flow?", "How do I know if my period is too heavy?", "What constitutes a heavy menstrual flow?"],
+            "responses": ["Signs of a heavy menstrual flow include soaking through one or more pads or tampons every hour for several consecutive hours."]
+        },
+        {
+            "tag": "PMS",
+            "patterns": ["What is PMS?", "What are the symptoms of premenstrual syndrome?", "How can I manage PMS symptoms?"],
+            "responses": ["PMS symptoms can include mood swings, irritability, fatigue, and changes in appetite."]
+        },
+        {
+            "tag": "menstrual_products",
+            "patterns": ["What types of menstrual products are available?", "What should I use during my period?", "How do I choose menstrual products?"],
+            "responses": ["Menstrual products include pads, tampons, menstrual cups, and period underwear."]
+        },
+        {
+            "tag": "menstrual_health",
+            "patterns": ["Why is menstrual health important?", "How can I maintain good menstrual health?", "What should I know about menstrual health?"],
+            "responses": ["Maintaining good menstrual health is important for overall reproductive health and well-being. Regular check-ups and awareness of your cycle can help."]
+        },
+        {
+            "tag": "menstruation_and_exercise",
+            "patterns": ["Can I exercise during my period?", "Is it okay to work out when I have my period?", "How does menstruation affect exercise?"],
+            "responses": ["Yes, it is generally safe to exercise during your period. Many people find that exercise can help alleviate menstrual cramps."]
+        },
+        {
+            "tag": "cultural_attitudes",
+            "patterns": ["How do different cultures view menstruation?", "What are some cultural beliefs about menstruation?", "How does culture influence menstruation?"],
+            "responses": ["Cultural attitudes towards menstruation vary widely; some cultures celebrate it as a rite of passage while others impose taboos."]
+        },
+        {
+            "tag": "menstrual_taboo",
+            "patterns": ["What are menstrual taboos?", "How do menstrual taboos affect women?", "What is the impact of menstruation taboos?"],
+            "responses": ["Menstrual taboos can contribute to stigma and misinformation about menstruation, impacting women's health and social standing."]
+        },
+        {
+            "tag": "menstrual_research",
+            "patterns": ["What research is being done on menstrual health?", "How is menstrual health studied?", "What are the latest findings on menstruation?"],
+            "responses": ["Ongoing research focuses on menstrual disorders, menstrual health awareness, and the impact of menstruation on women's health."]
+        },
+        {
+            "tag": "menstruation_and_marriage",
+            "patterns": ["How does menstruation influence marriage customs?", "Are there marriage customs related to menstruation?", "What is the relationship between menstruation and marriage?"],
+            "responses": ["In some cultures, menstruation may dictate certain customs or beliefs surrounding marriage and fertility."]
+        },
+        {
+            "tag": "menstrual_disorders",
+            "patterns": ["What are common menstrual disorders?", "What symptoms indicate a menstrual disorder?", "How do I know if I have a menstrual disorder?"],
+            "responses": ["Common menstrual disorders include amenorrhea, dysmenorrhea, and menorrhagia. Symptoms can vary widely."]
+        },
+        {
+            "tag": "menstruation_and_healthcare",
+            "patterns": ["How do cultural attitudes toward menstruation affect healthcare?", "What impact do beliefs about menstruation have on health services?", "How is menstruation treated in healthcare?"],
+            "responses": ["Cultural beliefs can influence how menstruation is treated in healthcare settings, affecting access to services and information."]
+        },
+        {
+            "tag": "menstrual_faq",
+            "patterns": ["What are frequently asked questions about menstruation?", "What should I know about my menstrual cycle?", "What common questions do people have about menstruation?"],
+            "responses": ["Common questions include concerns about cycle irregularities, managing symptoms, and understanding menstrual health."]
+        },
+        {
+            "tag": "menstrual_product_access",
+            "patterns": ["How can I access menstrual products?", "What challenges do people face in accessing menstrual products?", "Are menstrual products available everywhere?"],
+            "responses": ["Access to menstrual products can be limited in some regions, leading to challenges for those in need."]
+        },
+        {
+            "tag": "menstrual_product_innovation",
+            "patterns": ["What are the latest innovations in menstrual products?", "How are menstrual products changing?", "What new menstrual products are available?"],
+            "responses": ["Recent innovations include eco-friendly products, menstrual cups, and smart period tracking devices."]
+        },
+        {
+            "tag": "menstruation_stigma",
+            "patterns": ["What is the stigma surrounding menstruation?", "How does menstruation stigma affect women?", "What can be done to reduce menstrual stigma?"],
+            "responses": ["Menstrual stigma can lead to shame and misinformation. Education and open conversations can help reduce stigma."]
+        },
+        {
+            "tag": "menstrual_cycle_age",
+            "patterns": ["How does menstruation change with age?", "What happens to my cycle as I get older?", "How does aging affect menstruation?"],
+            "responses": ["Menstrual cycles can become irregular as women approach menopause, and symptoms may change with age."]
+        },
+        {
+            "tag": "menstrual_health_and_equity",
+            "patterns": ["What is menstrual health equity?", "How does access to menstrual health relate to social equity?", "Why is menstrual health important for equality?"],
+            "responses": ["Menstrual health equity ensures that all individuals have access to menstrual products and education, regardless of their background."]
+        },
+        {
+            "tag": "menstrual_products_environment",
+            "patterns": ["What is the environmental impact of menstrual products?", "How do disposable menstrual products affect the environment?", "Are there eco-friendly menstrual products?"],
+            "responses": ["Disposable menstrual products can contribute to plastic pollution, while reusable options offer more sustainable alternatives."]
+        },
+        {
+            "tag": "menstrual_product_instructions",
+            "patterns": ["How do I use a menstrual cup?", "What are the steps to using a tampon?", "How do I use period underwear?"],
+            "responses": ["Menstrual cups should be folded for insertion, tampons need to be inserted with the applicator, and period underwear can be worn like regular underwear."]
+        },
+        {
+            "tag": "menstruation_support_networks",
+            "patterns": ["How can I find support for menstrual health?", "What resources are available for menstrual health support?", "Are there communities focused on menstrual health?"],
+            "responses": ["Support can be found through local health organizations, online forums, and community groups dedicated to menstrual health awareness."]
+        },
+        {
+            "tag": "menstruation_and_mental_health",
+            "patterns": ["How does menstruation affect mental health?", "Can my period impact my mood?", "What are the psychological effects of menstruation?"],
+            "responses": ["Hormonal fluctuations during menstruation can impact mood, leading to symptoms of irritability or anxiety."]
+        },
+        {
+            "tag": "menstruation_and_nutrition",
+            "patterns": ["What should I eat during my period?", "Are there foods that can help with menstrual symptoms?", "How can nutrition affect menstruation?"],
+            "responses": ["A balanced diet rich in fruits, vegetables, and whole grains can help alleviate menstrual symptoms and support overall health."]
+        },
+        {
+            "tag": "menstrual_hygiene",
+            "patterns": ["What is menstrual hygiene?", "How can I maintain menstrual hygiene?", "Why is menstrual hygiene important?"],
+            "responses": ["Menstrual hygiene refers to managing menstruation in a healthy way, including using clean products and maintaining personal hygiene."]
+        },
+        {
+            "tag": "period_tracking",
+            "patterns": ["How can I track my menstrual cycle?", "What is the best way to keep track of my period?", "Are there apps for tracking periods?"],
+            "responses": ["There are many apps available for tracking menstrual cycles, which can help you monitor symptoms and cycle regularity."]
+        },
+        {
+            "tag": "menstrual_cycle_phases",
+            "patterns": ["What are the phases of the menstrual cycle?", "How many phases are in the menstrual cycle?", "What happens during each phase of the menstrual cycle?"],
+            "responses": ["The menstrual cycle consists of four phases: menstrual, follicular, ovulation, and luteal."]
+        },
+        {
+            "tag": "menstrual_pain_management",
+            "patterns": ["How can I manage menstrual pain?", "What are the best remedies for period pain?", "What should I do for severe menstrual cramps?"],
+            "responses": ["Pain can be managed with over-the-counter medications, heating pads, and gentle exercise."]
+        },
+        {
+            "tag": "menstrual_health_resources",
+            "patterns": ["Where can I find resources on menstrual health?", "What websites provide information about menstruation?", "Are there books on menstrual health?"],
+            "responses": ["Resources can be found through health organizations, educational websites, and local libraries offering books on the subject."]
+        },
+        {
+            "tag": "menstruation_and_fertility",
+            "patterns": ["How does menstruation relate to fertility?", "Can I get pregnant on my period?", "What is the link between my menstrual cycle and fertility?"],
+            "responses": ["Menstruation is a sign that you're not pregnant, but understanding your cycle can help identify fertile windows."]
+        },
+        {
+            "tag": "endometriosis",
+            "patterns": ["What is endometriosis?", "How does endometriosis affect menstruation?", "What are the symptoms of endometriosis?"],
+            "responses": ["Endometriosis occurs when tissue similar to the lining inside the uterus grows outside. Symptoms can include painful periods and heavy bleeding."]
+        },
+        {
+            "tag": "polycystic_ovary_syndrome",
+            "patterns": ["What is PCOS?", "How does PCOS affect my periods?", "What are the signs of PCOS?"],
+            "responses": ["PCOS is a hormonal disorder that can cause irregular periods, excessive hair growth, and weight gain."]
+        },
+        {
+            "tag": "fertility_awareness",
+            "patterns": ["What is fertility awareness?", "How can I track my fertile days?", "What are the methods of fertility awareness?"],
+            "responses": ["Fertility awareness involves tracking your menstrual cycle and recognizing signs of fertility to plan or prevent pregnancy."]
+        },
+        {
+            "tag": "menstrual_health_in_education",
+            "patterns": ["Why is menstrual health education important?", "How can schools educate about menstruation?", "What should be included in menstrual health education?"],
+            "responses": ["Menstrual health education can empower individuals to understand their bodies and promote healthy practices."]
+        },
+        {
+            "tag": "menstrual_treatment_options",
+            "patterns": ["What treatments are available for menstrual disorders?", "How can I manage severe menstrual symptoms?", "What are common treatments for period pain?"],
+            "responses": ["Treatment options can include hormonal therapies, lifestyle changes, and over-the-counter pain relief."]
+        },
+        {
+            "tag": "menstrual_health_in_different_countries",
+            "patterns": ["How is menstrual health viewed in different countries?", "What are the practices related to menstruation worldwide?", "How does culture shape menstrual health practices?"],
+            "responses": ["Menstrual health practices vary worldwide; some cultures celebrate it, while others impose restrictions or taboos."]
+        },
+        {
+            "tag": "menstrual_discomfort",
+            "patterns": ["What causes discomfort during my period?", "How can I ease menstrual discomfort?", "What are the common discomforts associated with menstruation?"],
+            "responses": ["Common discomforts include cramps, bloating, and mood swings, often caused by hormonal changes."]
+        },
+        {
+            "tag": "menstrual_awareness_month",
+            "patterns": ["What is Menstrual Health Awareness Month?", "When is Menstrual Health Awareness Month?", "How can I participate in Menstrual Health Awareness Month?"],
+            "responses": ["Menstrual Health Awareness Month is observed in May to promote awareness and education about menstrual health."]
+        },
+        {
+            "tag": "menstruation_and_disease",
+            "patterns": ["Can menstruation be affected by diseases?", "What diseases impact menstrual health?", "How does illness influence my period?"],
+            "responses": ["Certain diseases can impact menstrual health, including thyroid disorders and polycystic ovary syndrome (PCOS)."]
+        },
+        {
+            "tag": "menstrual_hygiene_products",
+            "patterns": ["What are the best menstrual hygiene products?", "How do I choose menstrual hygiene products?", "What should I consider when selecting menstrual products?"],
+            "responses": ["When selecting menstrual products, consider comfort, absorbency, environmental impact, and personal preference."]
+        },
+        {
+            "tag": "menstrual_awareness_campaigns",
+            "patterns": ["What campaigns promote menstrual health awareness?", "How can I support menstrual health campaigns?", "What initiatives raise awareness about menstruation?"],
+            "responses": ["Many organizations run campaigns to raise awareness about menstrual health, providing education and resources."]
+        },
+        {
+            "tag": "menstruation_facts",
+            "patterns": ["What are some interesting facts about menstruation?", "How often do women menstruate?", "What percentage of women experience menstrual symptoms?"],
+            "responses": ["About 50% of women experience menstrual symptoms, and menstruation occurs on average every 28 days."]
+        },
+        {
+            "tag": "menstrual_health_and_reproductive_rights",
+            "patterns": ["How are menstrual health and reproductive rights connected?", "What role does menstrual health play in reproductive rights?", "Why is menstrual health important for women's rights?"],
+            "responses": ["Menstrual health is a critical aspect of reproductive rights, impacting women's health and autonomy over their bodies."]
+        },
+        {
+            "tag": "menstrual_symptoms_relief",
+            "patterns": ["What can I do to relieve menstrual symptoms?", "How can I reduce bloating during my period?", "What are natural remedies for period symptoms?"],
+            "responses": ["Natural remedies include herbal teas, hydration, and maintaining a balanced diet to alleviate symptoms."]
+        },
+        {
+            "tag": "menstrual_health_and_politics",
+            "patterns": ["How does politics influence menstrual health?", "What political issues relate to menstruation?", "How can policy improve menstrual health?"],
+            "responses": ["Policies can improve menstrual health by ensuring access to products and education, addressing stigma, and promoting research."]
+        },
+        {
+            "tag": "menstruation_and_safety",
+            "patterns": ["How can I feel safe during my period?", "What should I do if I feel uncomfortable while menstruating?", "Are there safety concerns related to menstruation?"],
+            "responses": ["Feeling safe during menstruation involves having access to hygiene products and a supportive environment to discuss health concerns."]
+        },
+        {
+            "tag": "menstrual_stress_management",
+            "patterns": ["How can I manage stress related to menstruation?", "What techniques help reduce menstrual stress?", "How does stress affect my menstrual cycle?"],
+            "responses": ["Stress can disrupt your menstrual cycle. Techniques such as mindfulness, exercise, and proper sleep can help manage stress."]
+        },
+        {
+            "tag": "menstrual_cycle_variability",
+            "patterns": ["Why do menstrual cycles vary?", "What causes changes in my menstrual cycle?", "Is it normal for my cycle to change?"],
+            "responses": ["Menstrual cycles can vary due to hormonal changes, stress, health conditions, and lifestyle factors."]
+        },
+        {
+            "tag": "menstruation_and_mood_changes",
+            "patterns": ["How does my period affect my mood?", "Why do I feel different during my menstrual cycle?", "What are mood swings during menstruation?"],
+            "responses": ["Hormonal fluctuations during menstruation can lead to mood swings, irritability, and emotional sensitivity."]
+        },
+        {
+            "tag": "menstruation_and_fertility_tracking",
+            "patterns": ["How can I use my period to track fertility?", "What methods can help me track my fertility based on my cycle?", "How does tracking my menstrual cycle help with fertility?"],
+            "responses": ["Tracking your cycle can help identify ovulation and fertile windows, aiding in family planning or prevention."]
+        },
+        {
+            "tag": "menstrual_products_safety",
+            "patterns": ["Are menstrual products safe to use?", "What should I know about the safety of menstrual products?", "How can I ensure my menstrual products are safe?"],
+            "responses": ["Menstrual products should be FDA-approved and made from safe materials. Always check for allergens if sensitive."]
+        },
+        {
+            "tag": "menstrual_hygiene_access",
+            "patterns": ["What are the barriers to menstrual hygiene access?", "How can we improve access to menstrual hygiene products?", "Why is access to menstrual hygiene important?"],
+            "responses": ["Barriers include cost, stigma, and lack of education. Improving access is essential for women's health and dignity."]
+        },
+        {
+            "tag": "menstrual_health_and_employment",
+            "patterns": ["How does menstruation affect employment?", "What workplace policies relate to menstrual health?", "How can workplaces support menstrual health?"],
+            "responses": ["Workplaces can support menstrual health by providing access to hygiene products, flexible leave policies, and open discussions."]
+        },
+        {
+            "tag": "menstruation_and_body_image",
+            "patterns": ["How does menstruation affect body image?", "What impact does menstruation have on self-esteem?", "Can menstruation influence my perception of my body?"],
+            "responses": ["Hormonal changes during menstruation can affect body image and self-esteem due to physical symptoms like bloating."]
+        },
+        {
+            "tag": "menstruation_and_reproductive_health",
+            "patterns": ["How does menstruation relate to reproductive health?", "What should I know about my reproductive health and menstruation?", "How can I support my reproductive health?"],
+            "responses": ["Menstrual health is a key aspect of reproductive health; understanding your cycle is crucial for overall wellness."]
+        },
+        {
+            "tag": "menstrual_cycle_recording",
+            "patterns": ["How should I record my menstrual cycle?", "What details should I track about my period?", "How can I keep an accurate record of my cycle?"],
+            "responses": ["Recording the start and end dates, flow intensity, and symptoms can help you understand your cycle better."]
+        },
+        {
+            "tag": "menstruation_friends_support",
+            "patterns": ["How can I talk to my friends about menstruation?", "What should I say when discussing periods with friends?", "How can friends support each other during menstruation?"],
+            "responses": ["Open communication is key; share experiences and offer support to each other regarding menstrual health."]
+        },
+        {
+            "tag": "menstrual_health_during_pregnancy",
+            "patterns": ["How does menstruation change during pregnancy?", "What happens to my period if I'm pregnant?", "When do periods stop during pregnancy?"],
+            "responses": ["Menstruation ceases during pregnancy. If you're pregnant, you won't have a regular menstrual cycle."]
+        },
+        {
+            "tag": "menstrual_symptoms_after_birth",
+            "patterns": ["What happens to my period after childbirth?", "How does menstruation change after having a baby?", "When will my periods return after giving birth?"],
+            "responses": ["Postpartum periods can vary; some women may experience irregular cycles while breastfeeding or after weaning."]
+        },
+        {
+            "tag": "menstruation_and_self_care",
+            "patterns": ["How can I practice self-care during my period?", "What self-care tips can help with menstrual symptoms?", "How can I take care of myself while menstruating?"],
+            "responses": ["Self-care can include relaxation techniques, warm baths, and prioritizing rest to ease menstrual discomfort."]
+        },
+        {
+            "tag": "menstrual_cycle_variations",
+            "patterns": ["What causes variations in my menstrual cycle length?", "Is it normal for my period to last different lengths?", "How do I know if my cycle is too short or too long?"],
+            "responses": ["Variations in cycle length can be normal, but if changes are drastic, it may be wise to consult a healthcare provider."]
+        },
+        {
+            "tag": "menstrual_health_and_stigma",
+            "patterns": ["How can we reduce stigma around menstruation?", "What can be done to combat menstrual stigma?", "How does stigma impact menstrual health?"],
+            "responses": ["Reducing stigma involves education, open discussions, and empowering individuals to talk about menstruation without shame."]
+        },
+        {
+            "tag": "menstrual_product_recommendations",
+            "patterns": ["What menstrual products do you recommend?", "How do I choose the right menstrual product for me?", "What are the best menstrual products on the market?"],
+            "responses": ["Recommendations can vary; consider comfort, absorbency, and sustainability when choosing products."]
+        },
+        {
+            "tag": "menstruation_and_lifestyle_changes",
+            "patterns": ["How do lifestyle changes affect my menstrual cycle?", "What lifestyle factors can impact menstruation?", "Can exercise affect my periods?"],
+            "responses": ["Lifestyle factors like diet, exercise, and stress levels can significantly impact menstrual health."]
+        },
+        {
+            "tag": "menstrual_cycle_and_contraception",
+            "patterns": ["How does contraception affect my menstrual cycle?", "Will my period change if I use birth control?", "What impact does hormonal contraception have on menstruation?"],
+            "responses": ["Hormonal contraception can regulate or suppress periods, leading to lighter or missed cycles."]
+        },
+        {
+            "tag": "menstrual_pain_and_medicines",
+            "patterns": ["What medications help with menstrual pain?", "How can I treat severe period pain?", "What should I take for menstrual cramps?"],
+            "responses": ["Over-the-counter pain relievers like ibuprofen can help alleviate menstrual pain."]
+        },
+        {
+            "tag": "menstruation_and_health_screenings",
+            "patterns": ["What health screenings should I have related to menstruation?", "How can I ensure my menstrual health is monitored?", "What tests are important for menstrual health?"],
+            "responses": ["Regular health screenings include pelvic exams and Pap smears, which are important for reproductive health."]
+        },
+        {
+            "tag": "menstrual_product_side_effects",
+            "patterns": ["What side effects can occur from using menstrual products?", "Are there any risks associated with menstrual products?", "How do I know if I’m allergic to my menstrual products?"],
+            "responses": ["Possible side effects include irritation or allergic reactions. It's essential to choose hypoallergenic products if sensitive."]
+        },
+        {
+            "tag": "menstrual_health_applications",
+            "patterns": ["What apps help with menstrual health?", "How can technology aid in managing menstruation?", "Are there apps for period tracking?"],
+            "responses": ["There are many apps designed for menstrual health tracking, offering features for logging symptoms and cycle prediction."]
+        },
+        {
+            "tag": "menstrual_cycle_hormones",
+            "patterns": ["How do hormones affect my menstrual cycle?", "What role do hormones play in menstruation?", "Which hormones regulate my menstrual cycle?"],
+            "responses": ["Hormones like estrogen and progesterone play critical roles in regulating the menstrual cycle and ovulation."]
+        },
+        {
+            "tag": "menstrual_health_facts",
+            "patterns": ["What are some important facts about menstruation?", "How often do women menstruate?", "What percentage of women experience menstrual symptoms?"],
+            "responses": ["On average, menstruation occurs every 28 days, and symptoms vary widely among individuals."]
+        },
+        {
+            "tag": "menstrual_health_and_prevention",
+            "patterns": ["What preventive measures can I take for menstrual health?", "How can I prevent menstrual disorders?", "What steps can I take to maintain menstrual health?"],
+            "responses": ["Preventive measures include maintaining a healthy lifestyle, managing stress, and regular healthcare check-ups."]
+        },
+        {
+            "tag": "menstrual_health_and_technology",
+            "patterns": ["How is technology used in menstrual health?", "What are the benefits of tech in managing menstruation?", "Are there apps that support menstrual health?"],
+            "responses": ["Technology offers various tools for tracking cycles, managing symptoms, and educating about menstrual health."]
+        },
+        {
+            "tag": "menstruation_and_sleep",
+            "patterns": ["How does menstruation affect sleep?", "Can my period disrupt my sleep patterns?", "What should I do if I can’t sleep during my period?"],
+            "responses": ["Hormonal changes during menstruation can affect sleep quality. Maintaining a bedtime routine can help improve sleep."]
+        }
+    ]
+}
