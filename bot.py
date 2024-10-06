@@ -7,16 +7,21 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # Load training data from JSON file
-with open('training_data.json', 'r') as json_file:
-    training_data = json.load(json_file)
+try:
+    with open('training_data.json', 'r') as json_file:
+        training_data = json.load(json_file)
 
-# Load testing data from JSON file
-with open('testing_data.json', 'r') as json_file:
-    testing_data = json.load(json_file)
+    # Load testing data from JSON file
+    with open('testing_data.json', 'r') as json_file:
+        testing_data = json.load(json_file)
+
+except FileNotFoundError as e:
+    st.error(f"Error: {e}")
+    st.stop()
 
 # Prepare training data
-train_patterns = [entry['instruction (string)'] for entry in training_data]
-train_labels = [entry['response (string)'] for entry in training_data]
+train_patterns = [entry.get('instruction (string)', '') for entry in training_data]
+train_labels = [entry.get('response (string)', '') for entry in training_data]
 
 # Convert training data to DataFrame for easier manipulation
 train_df = pd.DataFrame({
@@ -51,8 +56,8 @@ if user_input:
 
 # Optionally, evaluate the model using testing data
 if st.button("Evaluate Model"):
-    test_patterns = [entry['instruction (string)'] for entry in testing_data]
-    test_labels = [entry['response (string)'] for entry in testing_data]
+    test_patterns = [entry.get('instruction (string)', '') for entry in testing_data]
+    test_labels = [entry.get('response (string)', '') for entry in testing_data]
     
     X_test = vectorizer.transform(test_patterns)
     y_test = test_labels
@@ -63,4 +68,3 @@ if st.button("Evaluate Model"):
     # Calculate accuracy
     accuracy = accuracy_score(y_test, predictions)
     st.write(f"Model Accuracy: {accuracy:.2f}")
-
